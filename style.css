@@ -1,0 +1,93 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+padding-top: 30px;
+background-color: #96CEB4;
+width: 100%;
+height: 80px;
+}
+
+.slider {
+    cursor: pointer;
+}
+
+#valueGrid {
+    font: bold;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #D9534F;
+    color: white;
+    font: bold;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #FFEEAD;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEEAD;
+    gap: 40px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFAD60;
+    height: 50px;
+    font-weight: bold;
+}
+
+.settings{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.sketch-conteiner {
+    overflow: hidden;
+    height: 700px;
+    width: 700px;
+    flex: 1;
+    border-radius: 20px;
+    border: solid 1px #D9534F;
+    background-color: white;
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+
+.active {
+    opacity: 50%;
+
+}
+
