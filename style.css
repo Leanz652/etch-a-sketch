@@ -76,9 +76,8 @@ button {
 
 .sketch-conteiner {
     overflow: hidden;
-    height: 700px;
-    width: 700px;
-    flex: 1;
+    height: 65vh;
+    width: 65vh;
     border-radius: 20px;
     border: solid 1px #D9534F;
     background-color: white;
