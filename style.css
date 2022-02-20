@@ -38,6 +38,7 @@ button {
     background-color: #D9534F;
     color: white;
     font: bold;
+    cursor: pointer;
 }
 
 .main {
